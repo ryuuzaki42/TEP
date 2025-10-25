@@ -1,0 +1,123 @@
+\begin{frame}[fragile]{Problema}
+
+Takahashi has many balls, on which nothing is written, and one bag. Initially, the bag is empty. 
+Takahashi will do $Q$ operations, each of which is of one of the following three types.
+\begin{itemize}
+    \item Type 1: Write an integer $X_i$ on a blank ball and put it in the bag.
+    \item Type 2: For each ball in the bag, replace the integer written on it with that integer plus $X_i$.
+    \item Type 3: Pick up the ball with the smallest integer in the bag (if there are multiple such balls, pick up one of them). Record the integer written on this ball and throw it away.
+\end{itemize}
+
+For each $1\leq i\leq Q$, you are given the type $P_i$ the $i$-th operation and the value of $X_i$ the operation is of Type 1 or 2. Print the integers recorded in the operations of Type 3 in order
+
+\end{frame}
+
+\begin{frame}[fragile]{Entrada e saída}
+
+\textbf{Constraints}
+
+\begin{itemize}
+    \item $1\leq Q\leq 2\times 10^5$
+    \item $1\leq P_i\leq 3$
+    \item $1\leq X_i\leq 10^9$
+    \item All values in input are integers.
+    \item There is one or more $i$ such that $P_i=3$.
+    \item If $P_i=3$, the bag contains at least one ball just before the $i$-th operation.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Entrada e saída}
+\textbf{Input}
+
+Input is given from Standard Input in the following format:
+
+\begin{atcoderio}{l}
+    $Q$ \\
+    query$_1$ \\
+    query$_2$ \\
+    $\vdots$ \\
+    query$_Q$ \\ 
+\end{atcoderio}
+
+\end{frame}
+
+\begin{frame}[fragile]{Entrada e saída}
+Each query$_i$ in the 2-nd through ($Q+1$)-th lines is in the following format:
+
+\begin{atcoderio}{l}
+    \texttt{1}\ $X_i$ \\
+\end{atcoderio}
+
+\begin{atcoderio}{l}
+    \texttt{2}\ $X_i$ \\
+\end{atcoderio}
+
+\begin{atcoderio}{l}
+    \texttt{3}
+\end{atcoderio}
+
+The first number in each line is $1\leq P_i\leq 3$, representing the type of the operation. If $P_i=1$ or $P_i=2$, it is followed by a space, and then by $X_i$.
+
+\vspace{0.2in}
+
+\textbf{Output}
+
+For each operation with $P_i=3$ among the $Q$ operations, print the recorded integer in its own line.
+
+\end{frame}
+
+\begin{frame}[fragile]{Exemplo de entradas e saídas}
+
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{Exemplo de Entrada}
+\begin{verbatim}
+5
+1 3
+1 5
+3
+2 2
+3
+\end{verbatim}
+\end{minipage}
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Exemplo de Saída}
+\begin{verbatim}
+3
+7
+\end{verbatim}
+\end{minipage}
+\end{frame}
+
+\begin{frame}[fragile]{Solução com complexidade $O(Q\log Q)$}
+
+    \begin{itemize}
+        \item O problema descreve as três operações fundamentais de um \textit{venice set}: adição de
+            um elemento, somar um valor constante a todos os elementos do conjunto e a extração
+            do menor elemento
+
+        \item Em um \textit{venice set}, a soma de constante tem complexidade $O(1)$ e a adição e 
+            remoção de elementos tem complexidade $O(\log N)$, onde $N$
+            é o número de elementos armazenados no conjunto
+
+        \item O \textit{venice set} mantém um delta que abstrai o nível da água na cidade de Veneza
+
+        \item A ideia é que, para adicionar um andar um andar em todos os prédios, basta reduzir o 
+            nível da água em um andar
+
+        \item É preciso utilizar o tipo \code{cpp}{long long} para evitar erros de \textit{overflow} 
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Solução com complexidade $O(Q\log Q)$}
+    \inputsnippet{cpp}{1}{20}{codes/B212D.cpp}
+\end{frame}
+
+\begin{frame}[fragile]{Solução com complexidade $O(Q\log Q)$}
+    \inputsnippet{cpp}{22}{36}{codes/B212D.cpp}
+\end{frame}
+
+\begin{frame}[fragile]{Solução com complexidade $O(Q\log Q)$}
+    \inputsnippet{cpp}{38}{53}{codes/B212D.cpp}
+\end{frame}
