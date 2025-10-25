@@ -42,6 +42,9 @@ Estruturas de Dados
         1. [OJ 12049 - _Just Prune The List_](../Upsolving/OJ/12049/12049.pdf)
         1. [ABC 110C - _String Transformation_](../Upsolving/ABC/B110C/B110C.pdf)
         1. [CF 1004C - _Sonya and Robots_](../Upsolving/CF/1004C/1004C.pdf)
+    1. _Venice Set_
+        1. [Maratona SBC Sub 2025 - Problema M: Muralhas Reforçadas](https://codeforces.com/gym/106073/problem/M)
+        1. [ABC 212D - Querying Multiset](https://atcoder.jp/contests/abc212/tasks/abc212_d)
     1. [_Heap_ binária](slides/heaps-definicao/heaps-definicao.pdf) 
     1. [_Heaps_ binárias na STL](slides/heaps-stl/heaps-stl.pdf)
         1. [Timus 1306 - _Sequence Median_](../Upsolving/Timus/1306/1306.pdf)
