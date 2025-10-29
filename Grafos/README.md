@@ -15,8 +15,8 @@ Teoria dos Grafos
         1. [OJ 10687 - Monitoring the Amazon](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=0&problem=1628) ([_upsolving_](../Upsolving/OJ/10687/10687.pdf))
 1. Aplicações de travessias
     1. [Componentes conectados](slides/componentes_conectados/componentes_conectados.pdf)
-        1. [Educational Codeforces Round 33 (Rated for Div. 2) - Problem C: Rumor](https://codeforces.com/contest/893/problem/C) ([_upsolving_](problems/CF_893C/CF_893C.pdf))
-        1. [OJ 11094 - Continents](http://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2035) ([_upsolving_](problems/OJ_11094/OJ_11094.pdf))
+        1. [Educational Codeforces Round 33 (Rated for Div. 2) - Problem C: Rumor](https://codeforces.com/contest/893/problem/C) ([_upsolving_](../Upsolving/CF/893C/893C.pdf))
+        1. [OJ 11094 - Continents](http://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2035) ([_upsolving_](../Upsolving/OJ/11094/11094.pdf))
     1. [Detecção de ciclos](slides/deteccao_de_ciclos/deteccao_de_ciclos.pdf)
         1. [AtCoder Beginner Contest 174 - Problem C: Repsept](https://atcoder.jp/contests/abc174/tasks/abc174_c) ([_upsolving_](problems/ABC_174C/ABC_174C.pdf))
         1. [OJ 10116 - Robot Motion](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=0&problem=1057) ([_upsolving_](problems/OJ_10116/OJ_10116.pdf))
