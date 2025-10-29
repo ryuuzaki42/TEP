@@ -53,8 +53,8 @@ Estruturas de Dados
 1. Árvores _m_-árias
     1. [Árvores-B](slides/arvores_m-arias/arvores_m-arias.pdf)
     1. [_Union-Find Disjoint Sets_](slides/ufds/ufds.pdf)
-        1. [SPOJ HERDING - _Herding_](problems/SPOJ_HERDING/SPOJ_HERDING.pdf)
-        1. [OJ 1197 - _The Suspects_](problems/OJ_1197/OJ_1197.pdf)
+        1. [SPOJ HERDING - _Herding_](../Upsolving/SPOJ/HERDING/HERDING.pdf)
+        1. [OJ 1197 - _The Suspects_](../Upsolving/OJ/1197/1197.pdf)
     1. [Árvores de Fenwick: Definição, _RSQ_ e _update_](slides/fenwick_tree-definicao/fenwick_tree-definicao.pdf)
         1. [SPOJ FENTREE - _Fenwick Trees_](../Upsolving/SPOJ/FENTREE/FENTREE.pdf)
         1. [OJ 12798 - _Handball_](../Upsolving/OJ/12798/12798.pdf)
